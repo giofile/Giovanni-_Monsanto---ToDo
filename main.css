@@ -1,0 +1,92 @@
+body{
+    background-color: rgb(8, 8, 98);
+    height: 35%;
+    width: 500px;
+    margin: auto;
+    top: 50px;
+    left: 0;
+    right:0;
+    padding: 30px 0;
+    border-radius: 8px;
+}
+
+#taakinvoer{
+    position: relative;
+    padding: 30px 15px;
+    background: white;
+    border-radius: 5px;
+}
+
+
+#taakinvoer input{
+    border-radius: 5px;
+    width: 79%;
+    height: 45px;
+    font-size: 15px;
+    border: 2px solid red;
+    padding: 8px;
+    color: black;
+   
+}
+
+#taakinvoer input:focus{
+    outline: none;
+    border-color:rgb(13, 228, 113);
+}
+
+#taakinvoer button{
+    position: relative;
+    width: 70px;
+    height: 70px;
+    border-radius: 10px;
+    font-size: 15px;
+    background: rgb(13, 228, 113);
+    color: white;
+    border: none;
+    cursor: pointer
+}
+
+
+#add{
+    width: 100%;
+    position: relative;
+    margin-top: 40px;
+    font-size: 20px;
+    background: white;
+    padding: 30px 20px;
+    border-radius: 5px;
+}
+
+.takenlijst{
+    background: white;
+    height: 50px;
+    padding: 5px 10px;
+    border-radius: 20px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    border-bottom: 2px solid whitesmoke;
+}
+
+.takenlijst span{
+    font-size: 20px;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.takenlijst button{
+    border: none;
+    background: red;
+    height: 100%;
+    width: 70px;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.completed{
+    text-decoration:line-through;
+    opacity: 0.6;
+}
